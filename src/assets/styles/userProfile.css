@@ -1,0 +1,16 @@
+@import './colors.css';
+
+.container {
+    margin-top: 4rem;
+}
+
+.outline {
+    border-color: black;
+    color: black;
+}
+
+.outline:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+}

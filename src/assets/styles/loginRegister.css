@@ -1,0 +1,14 @@
+@import './colors.css';
+
+.button-accent {
+    border: solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: black;
+}
+
+.button-accent:hover {
+    border: solid var(--accent-color);
+    background-color: transparent;
+    color: black;
+}
+

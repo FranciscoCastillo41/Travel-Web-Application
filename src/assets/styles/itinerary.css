@@ -1,0 +1,14 @@
+@import './colors.css';
+
+.saveBtn {
+    border-color: black;
+    color: black;
+    background-color: transparent;
+}
+
+.saveBtn:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white;
+
+}
